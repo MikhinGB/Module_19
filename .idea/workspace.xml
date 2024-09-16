@@ -4,28 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abac3638-45b2-47d4-9c15-94d4edf348e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/module_19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/module_19/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/module_19/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/module_19/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/module_19/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/module_19/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/task1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/task1/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/task1/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/task1/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/task1/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/task1/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_19/task1/views.py" afterDir="false" />
+    <list default="true" id="abac3638-45b2-47d4-9c15-94d4edf348e3" name="Changes" comment="14.09.2024 ДЗ#2">
+      <change afterPath="$PROJECT_DIR$/module_19/task1/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_19/templates/basket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_19/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_19/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_19/templates/registration_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_19/templates/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/module_19/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_19/module_19/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_19/module_19/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_19/module_19/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_19/module_19/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_19/task1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_19/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_19/task1/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2m0YNjtL9dI7ST5igam947O4NnL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,10 +37,40 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.views.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module_19" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_19/task1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_19/task1/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,6 +87,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726214922935</updated>
     </task>
+    <task id="LOCAL-00001" summary="14.09.2024 ДЗ#2">
+      <option name="closed" value="true" />
+      <created>1726306258749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726306258749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="14.09.2024 ДЗ#2" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.09.2024 ДЗ#2" />
   </component>
 </project>

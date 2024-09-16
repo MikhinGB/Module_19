@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}магазин Дом Игрушки{% endblock %}</title>
+    <link rel= 'stylesheet' type="text/css" href= '{%static "style.css" %}'>
+</head>
+<body>
+    <header>
+        {% block pagename %}
+        <h1>{{ page_title }}</h1>
+        {% endblock %}
+    </header>
+
+    <nav>
+        {% block menu %}
+        <p><a href="http://127.0.0.1:8000/">{{ link1 }}</a></p>
+        <p><a href="http://127.0.0.1:8000/store/">{{ link2 }}</a></p>
+        <p><a href="http://127.0.0.1:8000/basket/">{{ link3 }}</a></p>
+        {% endblock %}
+    </nav>
+
+    <main>
+        {% block content %}
+            <p>тут будут посты</p>
+        {% endblock %}
+    </main>
+</body>
+</html>

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Buyer(models.Model):
     name = models.CharField(max_length=100)
@@ -9,6 +10,7 @@ class Buyer(models.Model):
     def __str__(self):
         return self.name
 
+    objects = models.Manager()
 
 class Game(models.Model):
     title = models.CharField(max_length=100)
@@ -21,3 +23,4 @@ class Game(models.Model):
     def __str__(self):
         return self.title
 
+    objects = models.Manager()
